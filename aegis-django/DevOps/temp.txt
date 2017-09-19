@@ -1,0 +1,8 @@
+188.166.235.223
+52969093ab69c53f
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCe5JqoQV+tGmG1XcYlTTmkAbvEyMpXhybIyiG+8Qr2YErDtkznWSHo7u34ADecXxtt/UxvKatPoFyd8ltAPL4ipNFRHuZ6NzbknVRyHcscs3DiLZgP8usXJTTwELwZJs6ZFU94KmWburl5b91g/fLX1Fy+qqPCJMFzBm3h8kqdNbQydaKBmj8TO8V8mv0YEq6ym6TldD1vuJrCff8L9qW0P8iSm+a4PcC7vJXxIZoNliG+xlD3wyMUto6y6PiqFFU85nQZozm9FzFHqVpnTHGhMjiv1qHrNolfBErJTMKT3uV14xz4HhctC4rDsC/Hp4Qw/eDIvJjEklC2ZRL3mXNP Johan Tan@Max
+
+ssh dokku@188.166.235.223 postgres:link hello-db world
+ssh dokku@188.166.235.223 config hello
+git push dokku master
